@@ -8,8 +8,8 @@ public class MountainBikeBuildDirector {
 
     public void Construct(String colour)
     {
-        builder.colour=colour;
-        builder.height = 29;
+        //Build method
+        builder.setAttributes(colour, 29);
     }
 
     public Bicycle getResult()
